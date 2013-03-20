@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Best Online Degree Money Can't Buy!</title>
+        <meta name="description" content="Prestigious Univerist.Biz, the best online college money can't buy">
+        <meta name="keywords" content="college, university, online college, online university, diploma, BS, BA, BFA, MS, MA, MFA, PdH, free college, free university, free diploma">
+        <meta name="author" content="Not Just Pretty Pictures"
+        <meta charset="UTF-8">
+    </head>
+    <script src="brains.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Graduate' rel='stylesheet' type='text/css'>
+    <link href='styles.css' rel='stylesheet' type='text/css'>
+    <body>
+        <div id="diplomaArea">
+            <p class="collegeTitle">Prestigious University.biz</p>
+            <p class="diplomaText">The Regents of the University on reccomendation of the University Faculty and by virtue of the Authroity vested in Them by Law have conferred upon</p>
+            <input type="text" id="yourNameHere" />
+            <p class="diplomaText">the degree of</p>
+            <p id="yourDegree" class="diploma"></p>
+            <p class="diplomaText"> and have granted all the Rights, Privledges and Honors thereto pertaining.</p>
+            <p class="diplomaText">Given at http://prestigiousuniversity.biz, this <span id="degreeDate"></span></p>
+            <img id="officialSeal" src="img/officialSeal.png" alt="Official Seal of the Prestigious University.biz"/>
+            <img id="sigs" src="img/sigs.png"/>
+        </div>
+       <footer>
+ 	       <p>More Shinanigans from <a href="http://www.notjustprettypictures.com">Not Just Pretty Pictures</a> &copy;2013</p> 
+       </footer>
+        <script>
+            document.getElementById("yourDegree").innerHTML = generateDegree();
+            document.getElementById("degreeDate").innerHTML = generateDegreeDate();
+        </script>
+    </body>
+</html>

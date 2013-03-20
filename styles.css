@@ -1,0 +1,76 @@
+body,html{
+    font-family:'Graduate', serif;
+    font-size:12px;
+}
+body{
+    background-color:#444;
+    background-image:url('img/debut_dark.png');
+
+}
+p{
+    padding-bottom:0px;
+}
+p.diploma{
+    font-size: 2em;
+    font-weight:800;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+p.collegeTitle{
+    font-size: 3.7em;
+    font-weight: 800;
+    text-align:center;
+}
+p.diplomaText{
+    width:450px;
+    font-size:1.3em;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+#diplomaArea{
+	margin-top:35px;
+    width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#fff;
+    padding:5px;
+}
+#yourNameHere{
+	font-size: 1.9em;
+	width:750px;
+	margin-left:75px;
+	text-align:center;
+	font-family: 'Graduate', serif;
+	border:0px;
+	border-bottom:solid thin #eee;
+	
+}
+#officialSeal{
+	margin-left:325px;
+}
+footer p{
+	margin-top:25px;
+	color:#ddd;
+	font-size:0.8em;
+	text-align:center;
+}
+footer p a, footer p a:visited{
+	color:#fff;
+	text-decoration:none;
+}
+footer p a:hover{
+	text-decoration:underline;
+}
+@media print{
+	body {backgrounf-color:#fff;}
+	#yourNameHere{
+	font-size: 1.9em;
+	width:750px;
+	margin-left:75px;
+	text-align:center;
+	font-family: 'Graduate', serif;
+	border:0px;
+	}
+}
